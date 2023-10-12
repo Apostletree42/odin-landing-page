@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline;
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    margin-left: 10px;
+    font-size: 24px;
+    flex: 1;
+}
+
+.link-item {
+    margin-left: 80px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.item-1 {
+    flex:1;
+}
+
+.item-2 {
+    flex:1;
+}
