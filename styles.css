@@ -1,7 +1,21 @@
+/*CSS Styling*/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
 .nav-container {
     display: flex;
     justify-content: flex-start;
-    align-items:baseline;
+    align-items:flex-end;
     background-color: #1F2937;
 }
 
@@ -18,21 +32,134 @@
     color: #E5E7EB;
 }
 
-.item-1 {
-    flex:1;
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    align-content: flex-start;
+    background-color: #1F2937;
+    padding-bottom: 50px;
 }
 
-.item-2 {
-    flex:1;
+.item-1 {
+    margin-right: 50px;
 }
 
 .hero-main {
     color: #F9FAF8;
     font-weight: bolder;
     font-size: 48px;
+    margin-bottom: 0%;
 }
 
 .hero-secondary {
     color: #E5E7EB;
     font-size: 18px;
+    margin-top: 0%;
+}
+
+.button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: bolder;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.hero-container .image {
+    height: 150px;
+    width: 300px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+/*Main*/
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.first-item,.second-item,.third-item,.fourth-item {
+    flex: 0;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.main-container img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    opacity: 0.6;
+    color:#1F2937;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+
+.quoter {
+    font-size: 18px;
+    color:#1F2937;
+    font-weight: bolder;
+    text-align: end;
+}
+
+.call-text {
+    display:flex;
+    background-color: #3882F6;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.call-text .button {
+    max-height: 30px;
+}
+
+.text-1 {
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+.text-2 {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0%;
+}
+
+/*Footer*/
+
+.footer {
+    margin-top: 15px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
